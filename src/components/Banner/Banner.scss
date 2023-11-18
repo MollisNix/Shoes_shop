@@ -1,0 +1,51 @@
+.banner-section {
+    margin: 0px 50px 0px 50px ;
+    background-color: #F4EFE9;
+    border-radius:  20px 20px 0 0;
+    .banner-left {
+        display: flex;
+        flex-direction: column;
+        
+        .banner-logo {
+            align-self: flex-start;
+            margin: 16px 0px 0px 20px
+        }
+        .banner-left_content {
+            display: flex;
+            flex-direction: column;
+            margin: 32px 0 0 61px;
+
+            span {
+                font-weight: 700;
+                font-size: 36px;
+                align-self: flex-start
+            }
+
+            .banner-text_green {
+                color: #8BB43C;
+            }
+
+            .banner-text_dark {
+                color: #000000;
+                margin-bottom: 20px;
+            }
+
+            .buy-btn{
+                background-color: #A5D364;
+                color: white;
+                width: 177px;
+                padding: 14px 0;
+                font-weight: 700;
+                font-size: 16px;
+                align-content: center;
+                border: none;
+                border-radius: 110px;
+            }
+        }
+    }
+    .banner-right {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
