@@ -1,10 +1,16 @@
 {
     "shoeses" : [
         {"title": " Nike Blazer Mid Suede", "price": "3500 UAH", "img": "img/s1.jpg"},
-        {"title": " Nike Air Max 270", "price": "2500 UAH", "img": "img/s2.png"},
+        {"title": " Nike Air Max 270", "price": "2500 UAH", "img": "img/s1.jpg"},
         {"title": " Nike Blazer Mid Suede", "price": "1500 UAH", "img": "img/s3.jpg"},
         {"title": " Puma X Aka Boku Future Rider", "price": "3500 UAH", "img": "img/s4.jpg"},
         {"title": " Under Armour Curry 8", "price": "4500 UAH", "img": "img/s5.jpg"},
-        {"title": " Nike Kyrie 7", "price": "6500 UAH", "img": "img/s6.jpg"}
+        {"title": " Nike Kyrie 7", "price": "6500 UAH", "img": "img/s6.jpg"},
+        {"title": " Nike Air Max 270", "price": "2500 UAH", "img": "img/s1.jpg"},
+        {"title": " Nike Blazer Mid Suede", "price": "1500 UAH", "img": "img/s3.jpg"},
+        {"title": " Puma X Aka Boku Future Rider", "price": "3500 UAH", "img": "img/s4.jpg"},
+        {"title": " Under Armour Curry 8", "price": "4500 UAH", "img": "img/s5.jpg"},
+        {"title": " Nike Kyrie 7", "price": "6500 UAH", "img": "img/s6.jpg"},
+        {"title": " Nike Air Max 270", "price": "2500 UAH", "img": "img/s1.jpg"}
     ]
 }

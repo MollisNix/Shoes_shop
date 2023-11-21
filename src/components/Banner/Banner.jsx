@@ -3,8 +3,7 @@ import './Banner.scss'
 export const Banner = () => {
     
     return (
-        <section className="banner-section ">
-            <div className="container">
+            <div className="container banner-container_modyfier">
                 <div className="row">
                     <div className="col-4 ">
 
@@ -31,6 +30,5 @@ export const Banner = () => {
 
                 </div>
             </div>
-       </section>
     )
 }

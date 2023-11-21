@@ -1,5 +1,6 @@
 import axios from "axios";
 import React from "react";
+import "./Marketplace.scss";
 
 export const Marketplace = () => {
     const [goods, setGoods] = React.useState()
@@ -16,33 +17,28 @@ React.useEffect(() => {
     
    
     return (
-    <section className="marketplace">
-        <div className="container">
-            <div className="row">
-                <div className="col d-flex">
-                    <h2 className="marketplace-title">Усі кросівки</h2>
-                </div>
-            </div>
-            <div className="row">
-                
-                    {goods?.map((item, id)=> {
-                        return (
-                            <div className="col-3 marketplace-item" key={id}>
-                                <img src={item.img} alt="IMg" />
-                                <div className="item-info">
-                                    <h4 className="item-name">{item.title}</h4>
-                                </div>
-                                <div className="item-price">
-                                    <span className="price-title">Ціна:</span>
-                                    <span className="price-value">{item.price}</span>
-                                </div>
-                            </div>   
-                        )
-                    })}
-            </div>
-        </div>
-        
-   </section>
+    <>
+        {goods?.map((item, id)=> {
+            return (
+                <div  className="col-3 marketplace-item" key={id}>
+                    <div className="item-top">
+                        <img  height={32} width={32} className="like-btn" src="img/like-btn.svg" alt="" />
+                        <img  className="item-img" height={112} width={133} src={item.img} alt="IMg" />
+                        <h4 className="item-name">{item.title}</h4>
+                    </div>
+                    <div className="item-bottom">
+                            <div className="bottom-left">
+                                <span className="price-title">Ціна:</span>
+                                <span className="price-value">{item.price}</span>
+                            </div>
 
+                            <div className="bottom-right">
+                            <img height={28} width={28}  className="add-btn" src="img/add-btn.svg" alt="" />
+                            </div>
+                    </div>
+                </div>
+            )
+        })}
+    </>
     )
 }

@@ -1,7 +1,4 @@
 .banner-section {
-    margin: 0px 50px 0px 50px ;
-    background-color: #F4EFE9;
-    border-radius:  20px 20px 0 0;
     .banner-left {
         display: flex;
         flex-direction: column;
@@ -49,3 +46,7 @@
     }
 }
 
+.banner-container_modyfier {
+    background-color: #F4EFE9;
+    border-radius:  20px 20px 0 0;
+}
